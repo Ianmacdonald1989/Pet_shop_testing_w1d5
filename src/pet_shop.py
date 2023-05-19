@@ -10,3 +10,5 @@ def find_pet_by_name(pet_shop, pet_name):
         if pet["name"] == pet_name:
             return pet
     
+def add_or_remove_cash(pet_shop, cash):
+    pet_shop["admin"]["total_cash"] += cash  
