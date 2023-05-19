@@ -12,3 +12,20 @@ def find_pet_by_name(pet_shop, pet_name):
     
 def add_or_remove_cash(pet_shop, cash):
     pet_shop["admin"]["total_cash"] += cash  
+
+def get_pets_sold(pet_shop):
+    return pet_shop["admin"]["pets_sold"]
+
+def increase_pets_sold(pet_shop, sold):
+    pet_shop["admin"]["pets_sold"] += sold
+
+def get_stock_count(pet_shop):
+    return len(pet_shop["pets"])
+    # for number in pet_shop:
+    #     if len(number) == 0:
+    #         count += 1
+    #         return count
+            
+    
+
+    
