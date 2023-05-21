@@ -27,25 +27,29 @@ def increase_pets_sold(pet_shop, sold):
 #7
 def get_stock_count(pet_shop):
     return len(pet_shop["pets"])
-    # for number in pet_shop:
-    #     if len(number) == 0:
-    #         count += 1
-    #         return count
+    
 
 #8
 # def get_pets_by_breed(pet_shop, breed):
-#     for pets_by_breed in breed:
-#         total_breeds += type_of_breed[breed]
-#         return (pets_by_breed)
+#     return pet_shop["pets"]
 
 
-#9
+# #9
 # def get_pets_by_breed(pet_shop, breed):
-#     pass
+#     if len("breed") == 0 
+#     return pet_shop["pets"]["breed"]
+
+#attempt 2 (9)
+# def get_pets_by_breed(pet_shop, breed):
+#   breed_type = 0
+#   for breeds, in breed:
+#       breed_type += (0)
+#   return breed_type
+
 
 #12
-# def remove_pet_by_name(pet_shop, pets):
-#     pet_shop["name"].remove("Arthur") 
+def remove_pet_by_name(pet_shop, pets):
+    del pet_shop(["pets"]["name"]("Arthur"))
 
 #13
 # def add_pet_to_stock(pet_shop, new_pet):
@@ -56,7 +60,7 @@ def get_stock_count(pet_shop):
 
 #     return pet_shop["new_pet"]
 
-#13
+#13 (attempt 2)
 # def add_pet_to_stock(pet_shop, new_pet):
 #     pet_shop("new_pet").append
 #     return len(pet_shop["pets"])
@@ -78,5 +82,5 @@ def remove_customer_cash(pet_shop, cash):
 # def get_customer_pet_count(pet_shop, customers):
 #     return ["customers"]["pets"] == 0
 
-def add_pet_to_customer(new_pet):
-    pass
+# def add_pet_to_customer(new_pet):
+#     pass
