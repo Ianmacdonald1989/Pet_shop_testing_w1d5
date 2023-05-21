@@ -48,8 +48,8 @@ def get_stock_count(pet_shop):
 
 
 #12
-def remove_pet_by_name(pet_shop, pets):
-    del pet_shop(["pets"]["name"]("Arthur"))
+# def remove_pet_by_name(pet_shop, pets):
+#     del pet_shop(["pets"]["name"]("Arthur"))
 
 #13
 # def add_pet_to_stock(pet_shop, new_pet):
@@ -61,9 +61,9 @@ def remove_pet_by_name(pet_shop, pets):
 #     return pet_shop["new_pet"]
 
 #13 (attempt 2)
-# def add_pet_to_stock(pet_shop, new_pet):
-#     pet_shop("new_pet").append
-#     return len(pet_shop["pets"])
+def add_pet_to_stock(pet_shop, new_pet):
+    pet_shop("new_pet").append
+    return len(pet_shop["pets"])
 
 #14            
 # def add_friend(person, friend):
